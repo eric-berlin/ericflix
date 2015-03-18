@@ -1,8 +1,107 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/** 
+ * Materialize overide
+ **/
+
+/* Badge */
+span.badge {
+    background-color: #fff;
+    border-radius: 10px;
+    color:#fff;
+    float:none;
+    display: inline-block;
+    opacity: 0.6;
 }
 
-a {
-  color: #00B7FF;
+.success {
+    background-color: #66bb6a !important;
+}
+
+.alert {
+    background-color: #ef5350 !important;
+}
+
+.info {
+    background-color: #ffa726 !important;
+}
+
+/* Progress bar */
+.progress {
+    opacity: 0;
+    position: fixed;
+    top:-8px;
+    background-color: #eeaebd;
+}
+
+.progress .indeterminate {
+    background-color: #c14362;
+}
+
+
+/**
+ * Commmons
+ **/
+.ng-link {
+    cursor:pointer;
+}
+
+/**
+ * Header
+ **/
+
+.brand-logo {
+    background: #fff;
+}
+
+.brand-logo img {
+    height:35px;
+    margin:15px 25px;
+    margin-right:27px;
+}
+
+nav .input-field.label-right input {
+    padding-right:65px;
+    padding-left: 20px;
+}
+
+nav .input-field.label-right label  {
+    left: initial;
+    right:30px;
+}
+
+.search-li {
+    width: 400px;
+}
+
+
+/**
+ * Show files
+ **/
+.row .col.s4.show-files {
+    padding:0; 
+}
+
+.row .col.s12.collection  {
+    background-color: transparent;
+    margin-top:0;
+    border-width:0;
+    background-color:#263238;
+    color:#fff;
+    border-radius: 0;
+}
+
+.row .col.file-title {
+    color:#fff;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.row .col.file-title h5 {
+    word-wrap:break-word;
+}
+
+.collection .collection-item {
+    background-color: transparent;
+}
+.collection a.collection-item:not(.active):hover {
+    background-color: transparent;
+    color:#fff;
 }
