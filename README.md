@@ -10,3 +10,4 @@ Apllication permmettant de streamer du torrent depuis les sources kickass.
 * Ajouter d'autres API de recherches
     * yifi
     * cpasbien
+    * opensubtitle (sub)
