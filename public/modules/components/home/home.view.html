@@ -1,0 +1,27 @@
+<section>
+    <div class="row bottom-block">
+        <div class="col full-height" ng-class="home.choose.name ? 's8' : 's12'">
+            <div>
+                    
+            </div>
+            <table class="hoverable responsive-table">
+                <thead>
+                    <tr>
+                        <th class="ng-link" ng-click="sortType = 'title'; sortReverse = !sortReverse">Nom</th>
+                        <th class="ng-link" ng-click="sortType = 'seeds'; sortReverse = !sortReverse">Seeds</th>
+                        <th class="ng-link" ng-click="sortType = 'size'; sortReverse = !sortReverse">Size</th>
+                    </tr>
+                </thead>
+                    <tr ng-repeat="movie in home.movies | orderBy:sortType:sortReverse" ng-click="showFiles(movie)" class="ng-link">
+                        <td>{{movie.title | trim:50 }}</td>
+                        <td><span class="badge ng-class:movie.health;">{{movie.seeds}}</span></td>
+                        <td><span ng-bind='movie.size|formatSize'></span></td>
+                    </tr>
+            </table>
+        </div>
+
+        <div class="col s4 full-height show-files" ng-if="home.choose.name">
+            <show-files choose='home.choose'></show-files>
+        </div>
+    </div>
+</section>

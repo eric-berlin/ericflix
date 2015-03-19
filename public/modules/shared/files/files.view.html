@@ -1,0 +1,8 @@
+<div class="col s12 file-title ng-class:choose.health">
+    <h5>{{choose.name}}</h5>
+</div>
+ <div class="col s12 collection">
+    <span ng-repeat="file in choose.files">
+        <a href="#/watch/{{choose.hash}}?filename={{file}}" class="collection-item">{{file}}</a>
+    </span>
+</div>
