@@ -26,6 +26,7 @@ function HomeCtrl($scope, $http, $routeParams, homeService) {
             _this.choose.health = movie.health;
 
             $('.'+hash).css({'display':'initial'});
+
             app.init();
         });
     }
@@ -33,6 +34,7 @@ function HomeCtrl($scope, $http, $routeParams, homeService) {
     $scope.$on('searchMovie', function(event, search) {
         _this.updateSearch(search);
     })
+
 
     _this.updateSearch('yify');
 
