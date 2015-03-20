@@ -1,6 +1,6 @@
 ## ericflix
 
-v : 0.0.1
+version : 0.0.1
 
 Apllication permmettant de streamer du torrent depuis les sources kickass.
 
