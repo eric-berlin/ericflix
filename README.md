@@ -12,5 +12,5 @@ Apllication permmettant de streamer du torrent depuis les sources kickass.
 * Ajouter compilation des assets via gulp
 * Ajouter d'autres API de recherches
     * yifi
-    * cpasbien
+    * ~~cpasbien~~
     * opensubtitle
