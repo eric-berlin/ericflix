@@ -1,0 +1,29 @@
+{
+  "name": "ericflix",
+  "version": "0.0.1",
+  "homepage": "https://github.com/zeypo/ericflix",
+  "authors": [
+    "zeypo <zeypodesign@gmail.com>"
+  ],
+  "description": "Permet de streamer du torrent depuis les sources kickass.",
+  "keywords": [
+    "streaming",
+    "torrent",
+    "kickass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/assets/lib",
+  ],
+  "dependencies": {
+    "materialize": "~0.95.3",
+    "videogular-buffering": "~1.1.0",
+    "videogular-controls": "~1.1.0",
+    "videogular-ima-ads": "~1.1.0",
+    "videogular-overlay-play": "~1.1.0",
+    "videogular-themes-default": "~1.1.0",
+    "videogular": "~1.1.0"
+  }
+}
